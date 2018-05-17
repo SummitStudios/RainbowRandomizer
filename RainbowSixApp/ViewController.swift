@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var operatorView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +22,15 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonPressed(_ sender: Any) {
+        
+        // Randomize Ops
+        let randomOp = arc4random_uniform(11) + 1
+        
+        // Update Op Image
+        operatorView.image = UIImage(named: "op\(randomOp)")
+    }
+    
 
 }
 
