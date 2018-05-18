@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Vigil@1x.pdf",
+      "filename" : "Vigil@1.pdf",
       "scale" : "1x"
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "Vigil.png",
+      "filename" : "Vigil@3x.pdf",
       "scale" : "3x"
     }
   ],

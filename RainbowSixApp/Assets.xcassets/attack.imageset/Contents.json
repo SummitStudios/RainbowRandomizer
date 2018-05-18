@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "lion@1x.pdf",
+      "filename" : "attack@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "lion@2x.pdf",
+      "filename" : "attack@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "lion@3x.pdf",
+      "filename" : "attack@3x.pdf",
       "scale" : "3x"
     }
   ],
