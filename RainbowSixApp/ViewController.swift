@@ -12,9 +12,33 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var operatorView: UIImageView!
     
+    @IBOutlet weak var attacklabel: UILabel!
+    
+    @IBOutlet weak var defenselabel: UILabel!
+    
+    @IBOutlet weak var attackbuttonborder: UIButton!
+    
+    @IBOutlet weak var defensebuttonborder: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // attack label border
+        attacklabel.layer.borderWidth = 2.0
+        attacklabel.layer.borderColor = UIColor.white.cgColor
+        
+        // defense label border
+        defenselabel.layer.borderWidth = 2.0
+        defenselabel.layer.borderColor = UIColor.white.cgColor
+        
+        // attack button border
+        attackbuttonborder.layer.borderWidth = 2.0
+        attackbuttonborder.layer.borderColor = UIColor.white.cgColor
+        
+        // defenese button border
+        defensebuttonborder.layer.borderWidth = 2.0
+        defensebuttonborder.layer.borderColor = UIColor.white.cgColor
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,6 +63,7 @@ class ViewController: UIViewController {
         // Update Op Image
         operatorView.image = UIImage(named: "op\(randomOp)")
     }
+    
     
 
 }
