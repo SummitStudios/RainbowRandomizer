@@ -22,10 +22,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func defensePressed(_ sender: Any) {
+        // Randomize Ops
+        let randomOptwo = arc4random_uniform(20) + 1
+        
+        // Update Op Image
+        operatorView.image = UIImage(named: "Dop\(randomOptwo)")
+    }
     @IBAction func buttonPressed(_ sender: Any) {
         
         // Randomize Ops
-        let randomOp = arc4random_uniform(11) + 1
+        let randomOp = arc4random_uniform(18) + 1
         
         // Update Op Image
         operatorView.image = UIImage(named: "op\(randomOp)")

@@ -35,16 +35,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="op1" translatesAutoresizingMaskIntoConstraints="NO" id="MKK-cg-fld" userLabel="Operator View">
-                                        <rect key="frame" x="0.0" y="31" width="414" height="556"/>
+                                        <rect key="frame" x="0.0" y="31" width="414" height="500"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="556" id="6fc-4P-FGj"/>
+                                            <constraint firstAttribute="height" constant="500" id="6fc-4P-FGj"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFd-8K-aXW">
-                                        <rect key="frame" x="0.0" y="587" width="414" height="1"/>
+                                        <rect key="frame" x="0.0" y="531" width="414" height="57"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Random Operator Selector" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3O-G9-6Dz">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="57"/>
                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="19"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -64,6 +64,10 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7g7-DA-HsW">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="128"/>
                                                 <state key="normal" title="Defense"/>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zh8-JJ-am1"/>
+                                                    <action selector="defensePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4h5-P1-F47"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
