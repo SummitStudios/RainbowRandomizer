@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
     @IBAction func defensePressed(_ sender: Any) {
         // Randomize Ops
-        let randomOptwo = arc4random_uniform(20) + 1
+        let randomOptwo = arc4random_uniform(18) + 1
         
         // Update Op Image
         operatorView.image = UIImage(named: "Dop\(randomOptwo)")
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: Any) {
         
         // Randomize Ops
-        let randomOp = arc4random_uniform(18) + 1
+        let randomOp = arc4random_uniform(20) + 1
         
         // Update Op Image
         operatorView.image = UIImage(named: "op\(randomOp)")

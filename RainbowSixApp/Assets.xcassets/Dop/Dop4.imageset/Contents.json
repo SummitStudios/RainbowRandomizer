@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "rook@1x.pdf",
+      "filename" : "doc@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "rook@2x.pdf",
+      "filename" : "doc@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "rook@3x.pdf",
+      "filename" : "doc@3x.pdf",
       "scale" : "3x"
     }
   ],
