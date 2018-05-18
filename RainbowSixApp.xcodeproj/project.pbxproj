@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */; };
 		CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4220AE202C00397068 /* AppDelegate.swift */; };
 		CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4420AE202C00397068 /* ViewController.swift */; };
 		CCE1BD4820AE202C00397068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE1BD4620AE202C00397068 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 		CCE1BD3F20AE202C00397068 /* RainbowSixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowSixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE1BD4220AE202C00397068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE1BD4420AE202C00397068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CCE1BD4220AE202C00397068 /* AppDelegate.swift */,
 				CCE1BD4420AE202C00397068 /* ViewController.swift */,
+				CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */,
 				CCE1BD4620AE202C00397068 /* Main.storyboard */,
 				CCE1BD4920AE202D00397068 /* Assets.xcassets */,
 				CCE1BD4B20AE202D00397068 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */,
 				CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */,
+				CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,13 +285,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D29NKFQ965;
+				DEVELOPMENT_TEAM = 3U52BGTW7D;
 				INFOPLIST_FILE = RainbowSixApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Trenchwerk.RainbowSixApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = Trenchwerk.RainbowSixApp12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,13 +303,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D29NKFQ965;
+				DEVELOPMENT_TEAM = 3U52BGTW7D;
 				INFOPLIST_FILE = RainbowSixApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Trenchwerk.RainbowSixApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = Trenchwerk.RainbowSixApp12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
