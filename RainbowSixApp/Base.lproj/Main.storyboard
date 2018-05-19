@@ -183,7 +183,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="168"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                                 <state key="normal" title="Attack Strat">
-                                                    <color key="titleColor" red="1" green="0.093322322279999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="0.070588235294117646" green="0.40784313725490196" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="attackStratButton:" destination="ATo-qV-0sF" eventType="touchUpInside" id="LGD-94-JFQ"/>
@@ -193,7 +193,7 @@
                                                 <rect key="frame" x="207" y="0.0" width="207" height="168"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
                                                 <state key="normal" title="Defense Strat">
-                                                    <color key="titleColor" red="0.070588235289999995" green="0.40784313729999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleColor" red="0.75294117647058822" green="0.27843137254901962" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
                                                     <action selector="defenseStratButton:" destination="ATo-qV-0sF" eventType="touchUpInside" id="nFe-Kk-9qb"/>
