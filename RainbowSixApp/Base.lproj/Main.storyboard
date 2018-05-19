@@ -25,7 +25,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5w8-ti-VMC" userLabel="Root Stack View">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="summitstudios" translatesAutoresizingMaskIntoConstraints="NO" id="MKK-cg-fld" userLabel="Operator View">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summitstudios1" translatesAutoresizingMaskIntoConstraints="NO" id="MKK-cg-fld" userLabel="Operator View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="500" id="6fc-4P-FGj"/>
@@ -139,7 +139,7 @@
         <!--Strategy Roulette-->
         <scene sceneID="ziZ-lc-Ugm">
             <objects>
-                <viewController title="Strategy Roulette" id="ATo-qV-0sF" sceneMemberID="viewController">
+                <viewController title="Strategy Roulette" id="ATo-qV-0sF" customClass="StratViewController" customModule="RainbowSixApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eyQ-3q-hAO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,10 +179,16 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-27-WWu">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="224"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="attackStratButton:" destination="ATo-qV-0sF" eventType="touchUpInside" id="LGD-94-JFQ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq2-U7-Zm4">
                                                 <rect key="frame" x="207" y="0.0" width="207" height="224"/>
                                                 <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <action selector="defenseStratButton:" destination="ATo-qV-0sF" eventType="touchUpInside" id="nFe-Kk-9qb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -205,6 +211,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lDB-7c-2nJ"/>
                     </view>
+                    <connections>
+                        <outlet property="stratLabel" destination="NKt-Vy-qOw" id="XNt-G9-sF3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Nn-9y-B57" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,10 +248,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Summitstudios1" width="612" height="792"/>
         <image name="attack" width="612" height="792"/>
         <image name="defense" width="612" height="792"/>
         <image name="middlelogo" width="612" height="792"/>
-        <image name="summitstudios" width="612" height="792"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="z0s-JT-WGl"/>

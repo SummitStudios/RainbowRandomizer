@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F9229B220AF9DF400B22E60 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9229B120AF9DF400B22E60 /* StratViewController.swift */; };
 		CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */; };
 		CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4220AE202C00397068 /* AppDelegate.swift */; };
 		CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4420AE202C00397068 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F9229B120AF9DF400B22E60 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
 		CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 		CCE1BD3F20AE202C00397068 /* RainbowSixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowSixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE1BD4220AE202C00397068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				CCE1BD4420AE202C00397068 /* ViewController.swift */,
 				CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */,
 				CCE1BD4620AE202C00397068 /* Main.storyboard */,
+				4F9229B120AF9DF400B22E60 /* StratViewController.swift */,
 				CCE1BD4920AE202D00397068 /* Assets.xcassets */,
 				CCE1BD4B20AE202D00397068 /* LaunchScreen.storyboard */,
 				CCE1BD4E20AE202D00397068 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */,
+				4F9229B220AF9DF400B22E60 /* StratViewController.swift in Sources */,
 				CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */,
 				CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */,
 			);
