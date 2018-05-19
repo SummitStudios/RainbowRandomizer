@@ -34,7 +34,7 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An app dedicated to stimulate your Rainbow Six Siege experience!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6i9-O4-fFd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An app dedicated to stimulate your Rainbow Six Siege gameplay." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6i9-O4-fFd">
                                                 <rect key="frame" x="0.0" y="84" width="414" height="84"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -42,7 +42,7 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whether playing by yourself or with a group of friends, you are sure to kickoff a unique gameplay experience!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-Nn-aFh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whether playing by yourself or with a group of friends, you are sure to introduce a unique gameplay experience." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-Nn-aFh">
                                         <rect key="frame" x="0.0" y="168" width="414" height="168"/>
                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -196,6 +196,7 @@
                         <outlet property="defensebuttonborder" destination="7g7-DA-HsW" id="QXB-73-nWX"/>
                         <outlet property="defenselabel" destination="Abl-60-5kT" id="d1f-0q-jbL"/>
                         <outlet property="operatorView" destination="MKK-cg-fld" id="o4w-um-WeS"/>
+                        <outlet property="pressToStartLabel" destination="CEn-k2-RQJ" id="TNn-U6-xv7"/>
                         <outlet property="rootStackView" destination="5w8-ti-VMC" id="YuS-GJ-OgG"/>
                         <outlet property="welcomeScreenStackView" destination="18E-9y-zrx" id="45n-Xn-5cE"/>
                         <segue destination="ATo-qV-0sF" kind="show" identifier="viewcontrollerpush" id="L88-5c-i9b"/>

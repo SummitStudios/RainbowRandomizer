@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var rootStackView: UIStackView!
     
+    @IBOutlet weak var pressToStartLabel: UILabel!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +47,32 @@ class ViewController: UIViewController {
         // defenese button border
         defensebuttonborder.layer.borderWidth = 2.0
         defensebuttonborder.layer.borderColor = UIColor.white.cgColor
+        
+        pressToStartLabel.alpha = 0
+        
+        animateText()
+    }
+    
+    func animateText(){
+        
+        UIView.animate(withDuration: 1.0, animations: {
+            self.pressToStartLabel.alpha = 1.0
+            
+        }, completion: {
+            (Completed : Bool) -> Void in
+            
+            UIView.animate(withDuration: 1.0, delay: 0, options: UIViewAnimationOptions.curveLinear, animations: {
+                
+                self.pressToStartLabel.alpha = 0
+                
+            }, completion: {
+                (Completed : Bool) -> Void in
+                
+                self.animateText()
+                
+            })
+        })
+        
     }
 
     override func didReceiveMemoryWarning() {
