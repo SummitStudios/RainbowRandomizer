@@ -25,7 +25,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5w8-ti-VMC" userLabel="Root Stack View">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summitstudios1" translatesAutoresizingMaskIntoConstraints="NO" id="MKK-cg-fld" userLabel="Operator View">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SummitstudiosSnowTop" translatesAutoresizingMaskIntoConstraints="NO" id="MKK-cg-fld" userLabel="Operator View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="500"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="500" id="6fc-4P-FGj"/>
@@ -258,7 +258,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Summitstudios1" width="612" height="792"/>
+        <image name="SummitstudiosSnowTop" width="612" height="792"/>
         <image name="attack" width="612" height="792"/>
         <image name="defense" width="612" height="792"/>
         <image name="middlelogo" width="612" height="792"/>
