@@ -22,7 +22,70 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5w8-ti-VMC" userLabel="Root Stack View">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="18E-9y-zrx" userLabel="Welcome Screen Stack View">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="llZ-cM-PZ4" userLabel="Welcome Title Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Rainbow Roulette!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4r-2s-knU">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="23"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An app dedicated to stimulate your Rainbow Six Siege experience!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6i9-O4-fFd">
+                                                <rect key="frame" x="0.0" y="84" width="414" height="84"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whether playing by yourself or with a group of friends, you are sure to kickoff a unique gameplay experience!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-Nn-aFh">
+                                        <rect key="frame" x="0.0" y="168" width="414" height="168"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-3N-bMN" userLabel="Spacer Stack View">
+                                        <rect key="frame" x="0.0" y="336" width="414" height="168"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="t4y-lo-f5f">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8y5-fS-Bmo">
+                                                <rect key="frame" x="0.0" y="56" width="414" height="56"/>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press to Start" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CEn-k2-RQJ">
+                                                <rect key="frame" x="0.0" y="112" width="414" height="56"/>
+                                                <fontDescription key="fontDescription" name="Avenir-BookOblique" family="Avenir" pointSize="22"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jx6-3a-cgx" userLabel="Button Stack View">
+                                        <rect key="frame" x="0.0" y="504" width="414" height="168"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9dF-cs-dki">
+                                                <rect key="frame" x="0.0" y="0.0" width="138" height="168"/>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U11-Eg-iJm">
+                                                <rect key="frame" x="138" y="0.0" width="138" height="168"/>
+                                                <state key="normal" image="middlelogo"/>
+                                                <connections>
+                                                    <action selector="welcomeButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k59-D6-N0w"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bH-Lw-yVj">
+                                                <rect key="frame" x="276" y="0.0" width="138" height="168"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5w8-ti-VMC" userLabel="Root Stack View">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SummitstudiosSnowTop" translatesAutoresizingMaskIntoConstraints="NO" id="MKK-cg-fld" userLabel="Operator View">
@@ -99,8 +162,12 @@
                             <constraint firstAttribute="trailing" secondItem="70E-di-VAF" secondAttribute="trailing" id="LYi-mS-k3a"/>
                             <constraint firstItem="5w8-ti-VMC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PnU-ng-juA"/>
                             <constraint firstItem="70E-di-VAF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ter-1f-F2z"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="18E-9y-zrx" secondAttribute="trailing" id="ZMj-1o-HFS"/>
+                            <constraint firstItem="18E-9y-zrx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="am8-o0-ZTv"/>
+                            <constraint firstItem="18E-9y-zrx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eYe-MR-KCV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5w8-ti-VMC" secondAttribute="trailing" id="feK-HK-wHg"/>
                             <constraint firstItem="5w8-ti-VMC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oqG-iX-Mj8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="18E-9y-zrx" secondAttribute="bottom" id="wyW-cW-6Qu"/>
                             <constraint firstAttribute="bottom" secondItem="70E-di-VAF" secondAttribute="bottom" id="zrd-eI-4dx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -129,6 +196,8 @@
                         <outlet property="defensebuttonborder" destination="7g7-DA-HsW" id="QXB-73-nWX"/>
                         <outlet property="defenselabel" destination="Abl-60-5kT" id="d1f-0q-jbL"/>
                         <outlet property="operatorView" destination="MKK-cg-fld" id="o4w-um-WeS"/>
+                        <outlet property="rootStackView" destination="5w8-ti-VMC" id="YuS-GJ-OgG"/>
+                        <outlet property="welcomeScreenStackView" destination="18E-9y-zrx" id="45n-Xn-5cE"/>
                         <segue destination="ATo-qV-0sF" kind="show" identifier="viewcontrollerpush" id="L88-5c-i9b"/>
                     </connections>
                 </viewController>

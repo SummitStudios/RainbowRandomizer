@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var defensebuttonborder: UIButton!
     
+    @IBOutlet weak var welcomeScreenStackView: UIStackView!
+    
+    @IBOutlet weak var rootStackView: UIStackView!
     
     
     override func viewDidLoad() {
@@ -64,6 +67,13 @@ class ViewController: UIViewController {
         
         // Update Op Image
         operatorView.image = UIImage(named: "op\(randomOp)")
+    }
+   
+    @IBAction func welcomeButtonPressed(_ sender: Any) {
+    
+    rootStackView.isHidden = false
+    welcomeScreenStackView.isHidden = true
+    
     }
     
     
