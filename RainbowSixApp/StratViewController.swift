@@ -12,7 +12,12 @@ class StratViewController: UIViewController {
 
     @IBOutlet weak var stratLabel: UILabel!
     
-    @IBAction func attackStratButton(_ sender: Any) {
+    @IBOutlet weak var titleStratLabel: UILabel!
+    
+    @IBAction func attackStratButton(_ sender: Any)
+    
+    
+    {
         //Set Attack Strat Array
         let attackArray = [
             // Available Text Options
@@ -163,8 +168,12 @@ class StratViewController: UIViewController {
         let stratMessage = attackArray[randomIndex]
         stratLabel.text = stratMessage
         
+        titleStratLabel.text = String()
+
+        
         
     }
+    @IBOutlet weak var attackstratlabel: UILabel!
     
     @IBAction func defenseStratButton(_ sender: Any) {
         
@@ -283,6 +292,8 @@ class StratViewController: UIViewController {
         let stratMessage = defenseArray[randomIndex]
         stratLabel.text = stratMessage
         
+        stratLabel.numberOfLines = 0
+        
     }
     
     
@@ -292,6 +303,10 @@ class StratViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // attack strat label border
+
+        
     }
 
     override func didReceiveMemoryWarning() {

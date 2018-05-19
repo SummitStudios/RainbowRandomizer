@@ -111,11 +111,11 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" style="done" id="z4n-h0-k1p">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nhR-MW-xan">
-                                <rect key="frame" x="311" y="5" width="83" height="34"/>
+                                <rect key="frame" x="311" y="3.6666666666666679" width="83" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="18"/>
                                 <state key="normal" title="Strats">
-                                    <color key="titleColor" red="0.75294117650000003" green="0.2784313725" blue="0.098039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.070588235289999995" green="0.40784313729999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="ATo-qV-0sF" kind="show" identifier="stratbuttonpush" id="z0s-JT-WGl"/>
@@ -151,41 +151,50 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="742-fH-aW8">
                                 <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y7e-Og-cjK">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="224"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwA-kY-7Bn">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="21"/>
+                                        <color key="textColor" red="1" green="0.093322322279999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Yjj-E2-iZw">
+                                        <rect key="frame" x="0.0" y="168" width="414" height="168"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iwh-8k-JcD">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="224"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EHm-xS-sqk">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Strategy" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKt-Vy-qOw">
+                                                        <rect key="frame" x="0.0" y="71" width="414" height="26"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="19"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EHm-xS-sqk">
-                                        <rect key="frame" x="0.0" y="224" width="414" height="224"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKt-Vy-qOw">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="224"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stratsquad" translatesAutoresizingMaskIntoConstraints="NO" id="FZA-kZ-9aO">
+                                        <rect key="frame" x="0.0" y="336" width="414" height="168"/>
+                                    </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6q5-g7-ab0">
-                                        <rect key="frame" x="0.0" y="448" width="414" height="224"/>
+                                        <rect key="frame" x="0.0" y="504" width="414" height="168"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-27-WWu">
-                                                <rect key="frame" x="0.0" y="0.0" width="207" height="224"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="168"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Attack Strat">
+                                                    <color key="titleColor" red="1" green="0.093322322279999995" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="attackStratButton:" destination="ATo-qV-0sF" eventType="touchUpInside" id="LGD-94-JFQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cq2-U7-Zm4">
-                                                <rect key="frame" x="207" y="0.0" width="207" height="224"/>
-                                                <state key="normal" title="Button"/>
+                                                <rect key="frame" x="207" y="0.0" width="207" height="168"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Defense Strat">
+                                                    <color key="titleColor" red="0.070588235289999995" green="0.40784313729999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="defenseStratButton:" destination="ATo-qV-0sF" eventType="touchUpInside" id="nFe-Kk-9qb"/>
                                                 </connections>
@@ -213,6 +222,7 @@
                     </view>
                     <connections>
                         <outlet property="stratLabel" destination="NKt-Vy-qOw" id="XNt-G9-sF3"/>
+                        <outlet property="titleStratLabel" destination="GwA-kY-7Bn" id="Ekb-Xd-MXp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Nn-9y-B57" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -252,6 +262,7 @@
         <image name="attack" width="612" height="792"/>
         <image name="defense" width="612" height="792"/>
         <image name="middlelogo" width="612" height="792"/>
+        <image name="stratsquad" width="792" height="612"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="z0s-JT-WGl"/>
