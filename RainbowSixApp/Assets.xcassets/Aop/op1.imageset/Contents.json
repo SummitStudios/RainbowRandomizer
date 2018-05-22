@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ash@1x.pdf",
+      "filename" : "AshIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ash@2x.pdf",
+      "filename" : "AshIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ash@3x.pdf",
+      "filename" : "AshIcon@3x.pdf",
       "scale" : "3x"
     }
   ],
