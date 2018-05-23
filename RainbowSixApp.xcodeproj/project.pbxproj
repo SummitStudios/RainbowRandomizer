@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AACA4AA9ED55404345DDB4B /* Pods_RainbowSixApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E95535DC74B01EEB298C90A /* Pods_RainbowSixApp.framework */; };
 		4F9229B220AF9DF400B22E60 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9229B120AF9DF400B22E60 /* StratViewController.swift */; };
+		CC44205120B6074D00E63CFA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44205020B6074D00E63CFA /* ChatViewController.swift */; };
+		CC44205320B6177000E63CFA /* LoggedInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44205220B6177000E63CFA /* LoggedInController.swift */; };
 		CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */; };
 		CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4220AE202C00397068 /* AppDelegate.swift */; };
 		CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4420AE202C00397068 /* ViewController.swift */; };
 		CCE1BD4820AE202C00397068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE1BD4620AE202C00397068 /* Main.storyboard */; };
 		CCE1BD4A20AE202D00397068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE1BD4920AE202D00397068 /* Assets.xcassets */; };
 		CCE1BD4D20AE202D00397068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE1BD4B20AE202D00397068 /* LaunchScreen.storyboard */; };
+		CCFA8E9220B5E88600B6A060 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCFA8E9120B5E88500B6A060 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E95535DC74B01EEB298C90A /* Pods_RainbowSixApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RainbowSixApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AC706B0896FAB7AA61F84DF /* Pods-RainbowSixApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowSixApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowSixApp/Pods-RainbowSixApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4F9229B120AF9DF400B22E60 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
+		CC44205020B6074D00E63CFA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CC44205220B6177000E63CFA /* LoggedInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInController.swift; sourceTree = "<group>"; };
 		CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 		CCE1BD3F20AE202C00397068 /* RainbowSixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowSixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE1BD4220AE202C00397068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		CCE1BD4920AE202D00397068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE1BD4C20AE202D00397068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE1BD4E20AE202D00397068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFA8E9120B5E88500B6A060 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7C64C8850DD55164097FE53 /* Pods-RainbowSixApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RainbowSixApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RainbowSixApp/Pods-RainbowSixApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AACA4AA9ED55404345DDB4B /* Pods_RainbowSixApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16B08DB5D07AD1998DDA4324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AC706B0896FAB7AA61F84DF /* Pods-RainbowSixApp.debug.xcconfig */,
+				F7C64C8850DD55164097FE53 /* Pods-RainbowSixApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49FDCC69C875674A1D71E723 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E95535DC74B01EEB298C90A /* Pods_RainbowSixApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CCE1BD3620AE202C00397068 = {
 			isa = PBXGroup;
 			children = (
 				CCE1BD4120AE202C00397068 /* RainbowSixApp */,
 				CCE1BD4020AE202C00397068 /* Products */,
+				16B08DB5D07AD1998DDA4324 /* Pods */,
+				49FDCC69C875674A1D71E723 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,13 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				CCE1BD4220AE202C00397068 /* AppDelegate.swift */,
-				CCE1BD4420AE202C00397068 /* ViewController.swift */,
-				CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */,
 				CCE1BD4620AE202C00397068 /* Main.storyboard */,
+				CCE1BD4420AE202C00397068 /* ViewController.swift */,
+				CC44205020B6074D00E63CFA /* ChatViewController.swift */,
 				4F9229B120AF9DF400B22E60 /* StratViewController.swift */,
+				CC44205220B6177000E63CFA /* LoggedInController.swift */,
+				CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */,
 				CCE1BD4920AE202D00397068 /* Assets.xcassets */,
 				CCE1BD4B20AE202D00397068 /* LaunchScreen.storyboard */,
 				CCE1BD4E20AE202D00397068 /* Info.plist */,
+				CCFA8E9120B5E88500B6A060 /* GoogleService-Info.plist */,
 			);
 			path = RainbowSixApp;
 			sourceTree = "<group>";
@@ -77,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCE1BD5120AE202D00397068 /* Build configuration list for PBXNativeTarget "RainbowSixApp" */;
 			buildPhases = (
+				B6A120D0F5473C2A25B21850 /* [CP] Check Pods Manifest.lock */,
 				CCE1BD3B20AE202C00397068 /* Sources */,
 				CCE1BD3C20AE202C00397068 /* Frameworks */,
 				CCE1BD3D20AE202C00397068 /* Resources */,
+				CBED3371CC8502D43F13EFAE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE1BD4D20AE202D00397068 /* LaunchScreen.storyboard in Resources */,
+				CCFA8E9220B5E88600B6A060 /* GoogleService-Info.plist in Resources */,
 				CCE1BD4A20AE202D00397068 /* Assets.xcassets in Resources */,
 				CCE1BD4820AE202C00397068 /* Main.storyboard in Resources */,
 			);
@@ -136,14 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6A120D0F5473C2A25B21850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RainbowSixApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBED3371CC8502D43F13EFAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RainbowSixApp/Pods-RainbowSixApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RainbowSixApp/Pods-RainbowSixApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCE1BD3B20AE202C00397068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC44205320B6177000E63CFA /* LoggedInController.swift in Sources */,
 				CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */,
 				4F9229B220AF9DF400B22E60 /* StratViewController.swift in Sources */,
 				CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */,
+				CC44205120B6074D00E63CFA /* ChatViewController.swift in Sources */,
 				CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +367,7 @@
 		};
 		CCE1BD5220AE202D00397068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AC706B0896FAB7AA61F84DF /* Pods-RainbowSixApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +386,7 @@
 		};
 		CCE1BD5320AE202D00397068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C64C8850DD55164097FE53 /* Pods-RainbowSixApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
