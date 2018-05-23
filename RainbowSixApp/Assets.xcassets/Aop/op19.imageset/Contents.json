@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "finka@1x.pdf",
+      "filename" : "LionIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "finka@2x.pdf",
+      "filename" : "LionIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "finka@3x.pdf",
+      "filename" : "LionIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

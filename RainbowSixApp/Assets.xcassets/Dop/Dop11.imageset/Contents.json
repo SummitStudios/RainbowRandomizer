@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Frost@1x.pdf",
+      "filename" : "FrostIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Frost@2x.pdf",
+      "filename" : "FrostIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Frost@3x.pdf",
+      "filename" : "FrostIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

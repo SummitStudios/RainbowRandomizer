@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "bandit@1x.pdf",
+      "filename" : "BanditIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "bandit@2x.pdf",
+      "filename" : "BanditIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "bandit@3x.pdf",
+      "filename" : "BanditIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

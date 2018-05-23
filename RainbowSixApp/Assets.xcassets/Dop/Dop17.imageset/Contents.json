@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "ela@1x.pdf",
+      "filename" : "ElaIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ela@2x.pdf",
+      "filename" : "ElaIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "ela@3x.pdf",
+      "filename" : "ElaIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

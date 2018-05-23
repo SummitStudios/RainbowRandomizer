@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Sledge@1x.pdf",
+      "filename" : "SledgeIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Sledge@2x.pdf",
+      "filename" : "SledgeIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Sledge@3x.pdf",
+      "filename" : "SledgeIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

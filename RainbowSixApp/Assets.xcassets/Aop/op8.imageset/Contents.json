@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Thatcher@1x.pdf",
+      "filename" : "ThatcherIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Thatcher@2x.pdf",
+      "filename" : "ThatcherIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Thatcher@3x.pdf",
+      "filename" : "ThatcherIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

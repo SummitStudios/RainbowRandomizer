@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Fuze@1x.pdf",
+      "filename" : "FuzeIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Fuze@2x.pdf",
+      "filename" : "FuzeIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Fuze@3x.pdf",
+      "filename" : "FuzeIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

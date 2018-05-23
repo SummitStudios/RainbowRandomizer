@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Valkyrie@1x.pdf",
+      "filename" : "ValkyrieIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Valkyrie@2x.pdf",
+      "filename" : "ValkyrieIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Valkyrie@3x.pdf",
+      "filename" : "ValkyrieIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

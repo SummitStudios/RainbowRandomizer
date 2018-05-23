@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "IQ@1x.pdf",
+      "filename" : "IQIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "IQ@2x.pdf",
+      "filename" : "IQIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "IQ@3x.pdf",
+      "filename" : "IQIcon@3x.pdf",
       "scale" : "3x"
     }
   ],

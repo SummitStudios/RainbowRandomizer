@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Mute@1x.pdf",
+      "filename" : "MuteIcon@1x.pdf",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Mute@2x.pdf",
+      "filename" : "MuteIcon@2x.pdf",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Mute@3x.pdf",
+      "filename" : "MuteIcon@3x.pdf",
       "scale" : "3x"
     }
   ],
