@@ -11,6 +11,7 @@
 		4F9229B220AF9DF400B22E60 /* StratViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9229B120AF9DF400B22E60 /* StratViewController.swift */; };
 		CC44205120B6074D00E63CFA /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44205020B6074D00E63CFA /* ChatViewController.swift */; };
 		CC44205320B6177000E63CFA /* LoggedInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC44205220B6177000E63CFA /* LoggedInController.swift */; };
+		CC8A197120B735E60018F24E /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8A197020B735E60018F24E /* CreateAccountController.swift */; };
 		CCC627FE20AE72C100D4E99E /* ButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */; };
 		CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4220AE202C00397068 /* AppDelegate.swift */; };
 		CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE1BD4420AE202C00397068 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		4F9229B120AF9DF400B22E60 /* StratViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratViewController.swift; sourceTree = "<group>"; };
 		CC44205020B6074D00E63CFA /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CC44205220B6177000E63CFA /* LoggedInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInController.swift; sourceTree = "<group>"; };
+		CC8A197020B735E60018F24E /* CreateAccountController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
 		CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimation.swift; sourceTree = "<group>"; };
 		CCE1BD3F20AE202C00397068 /* RainbowSixApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowSixApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE1BD4220AE202C00397068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,8 +94,9 @@
 				CCE1BD4620AE202C00397068 /* Main.storyboard */,
 				CCE1BD4420AE202C00397068 /* ViewController.swift */,
 				CC44205020B6074D00E63CFA /* ChatViewController.swift */,
-				4F9229B120AF9DF400B22E60 /* StratViewController.swift */,
+				CC8A197020B735E60018F24E /* CreateAccountController.swift */,
 				CC44205220B6177000E63CFA /* LoggedInController.swift */,
+				4F9229B120AF9DF400B22E60 /* StratViewController.swift */,
 				CCC627FD20AE72C100D4E99E /* ButtonAnimation.swift */,
 				CCE1BD4920AE202D00397068 /* Assets.xcassets */,
 				CCE1BD4B20AE202D00397068 /* LaunchScreen.storyboard */,
@@ -222,6 +225,7 @@
 			files = (
 				CC44205320B6177000E63CFA /* LoggedInController.swift in Sources */,
 				CCE1BD4520AE202C00397068 /* ViewController.swift in Sources */,
+				CC8A197120B735E60018F24E /* CreateAccountController.swift in Sources */,
 				4F9229B220AF9DF400B22E60 /* StratViewController.swift in Sources */,
 				CCE1BD4320AE202C00397068 /* AppDelegate.swift in Sources */,
 				CC44205120B6074D00E63CFA /* ChatViewController.swift in Sources */,
