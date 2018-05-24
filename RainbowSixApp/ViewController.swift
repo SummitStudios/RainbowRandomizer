@@ -47,6 +47,8 @@ class ViewController: UIViewController {
         defensebuttonborder.layer.borderWidth = 2.0
         defensebuttonborder.layer.borderColor = UIColor.white.cgColor
         
+        
+        
         pressToStartLabel.alpha = 0
         
         animateText()

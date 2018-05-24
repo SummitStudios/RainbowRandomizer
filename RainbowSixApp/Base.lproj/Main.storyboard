@@ -43,11 +43,21 @@
                                     <action selector="logoutTapped:" destination="yH1-6t-28H" eventType="touchUpInside" id="LhR-wa-rib"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfY-nS-GGp">
+                                <rect key="frame" x="191" y="669" width="32" height="37"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
+                                <state key="normal" title="Exit"/>
+                                <connections>
+                                    <segue destination="QfL-xe-76O" kind="show" id="m9K-MJ-taE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="tog-EP-7NQ" firstAttribute="centerX" secondItem="kac-Y2-ANn" secondAttribute="centerX" id="7Ly-34-8QE"/>
                             <constraint firstItem="tog-EP-7NQ" firstAttribute="top" secondItem="jIm-bL-aIZ" secondAttribute="top" constant="50" id="DJL-8W-CE8"/>
+                            <constraint firstItem="IfY-nS-GGp" firstAttribute="centerX" secondItem="kac-Y2-ANn" secondAttribute="centerX" id="IEw-Uc-x2R"/>
+                            <constraint firstItem="jIm-bL-aIZ" firstAttribute="bottom" secondItem="IfY-nS-GGp" secondAttribute="bottom" constant="30" id="W45-KU-sUc"/>
                             <constraint firstItem="d0F-WB-kSE" firstAttribute="top" secondItem="tog-EP-7NQ" secondAttribute="bottom" constant="40" id="gQ7-Ja-W9I"/>
                             <constraint firstItem="jIm-bL-aIZ" firstAttribute="trailing" secondItem="d0F-WB-kSE" secondAttribute="trailing" constant="40" id="hIU-q8-w8F"/>
                             <constraint firstItem="d0F-WB-kSE" firstAttribute="leading" secondItem="jIm-bL-aIZ" secondAttribute="leading" constant="40" id="iDG-Sf-KtW"/>
@@ -159,24 +169,40 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="llZ-cM-PZ4" userLabel="Welcome Title Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="168"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Rainbow Roulette!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4r-2s-knU">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rainbow Roulette" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4r-2s-knU">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
+                                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.3653413955479452" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An app dedicated to stimulate your Rainbow Six Siege gameplay." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6i9-O4-fFd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6i9-O4-fFd">
                                                 <rect key="frame" x="0.0" y="84" width="414" height="84"/>
-                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Community App for Tom Clancey's Rainbow Six Siege.">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="18" name="Avenir-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Whether playing by yourself or with a group of friends, you are sure to introduce a unique gameplay experience." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-Nn-aFh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5o-Nn-aFh">
                                         <rect key="frame" x="0.0" y="168" width="414" height="168"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Press "Chat" to talk with members of the community or to join a squad! Press "Strats" to randomize casual strategies. Or, press below to randomize operators.</string>
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="18" name="Avenir-Light"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="6pQ-3N-bMN" userLabel="Spacer Stack View">
@@ -385,6 +411,7 @@
                                     </stackView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stratsquad" translatesAutoresizingMaskIntoConstraints="NO" id="FZA-kZ-9aO">
                                         <rect key="frame" x="0.0" y="336" width="414" height="168"/>
+                                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="6q5-g7-ab0">
                                         <rect key="frame" x="0.0" y="504" width="414" height="168"/>
