@@ -26,13 +26,13 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d0F-WB-kSE">
                                 <rect key="frame" x="40" y="137.33333333333334" width="334" height="50"/>
-                                <color key="backgroundColor" red="0.070588235289999995" green="0.40784313729999999" blue="0.75686274509999996" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="o5Y-MF-B8p"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                 <state key="normal" title="Logout">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -46,13 +46,15 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfY-nS-GGp">
                                 <rect key="frame" x="191" y="669" width="32" height="37"/>
                                 <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
-                                <state key="normal" title="Exit"/>
+                                <state key="normal" title="Exit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="QfL-xe-76O" kind="show" id="m9K-MJ-taE"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.18385568261146545" green="0.40323522686958313" blue="0.73336762189865112" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="tog-EP-7NQ" firstAttribute="centerX" secondItem="kac-Y2-ANn" secondAttribute="centerX" id="7Ly-34-8QE"/>
                             <constraint firstItem="tog-EP-7NQ" firstAttribute="top" secondItem="jIm-bL-aIZ" secondAttribute="top" constant="50" id="DJL-8W-CE8"/>
@@ -124,6 +126,18 @@
                                     <action selector="createAccountTapped:" destination="10L-9a-syq" eventType="touchUpInside" id="wnZ-Ij-CJy"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUQ-9z-PRB">
+                                <rect key="frame" x="100.66666666666667" y="124" width="212.66666666666663" height="26"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Rainbow Roulette Forum">
+                                        <attributes>
+                                            <color key="NSColor" red="0.92406914318878641" green="0.40891102440293431" blue="0.21597767891759001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <font key="NSFont" size="19" name="AvenirNext-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -131,9 +145,11 @@
                             <constraint firstItem="Bvm-OJ-gZV" firstAttribute="centerY" secondItem="eT4-uB-7u9" secondAttribute="centerY" id="35m-yZ-RkX"/>
                             <constraint firstItem="qnp-os-y8L" firstAttribute="trailing" secondItem="Bvm-OJ-gZV" secondAttribute="trailing" constant="40" id="3Xl-M5-vGQ"/>
                             <constraint firstItem="Bsp-Dm-aab" firstAttribute="leading" secondItem="qnp-os-y8L" secondAttribute="leading" constant="40" id="5Po-Xq-EaO"/>
+                            <constraint firstItem="VUQ-9z-PRB" firstAttribute="top" secondItem="qnp-os-y8L" secondAttribute="top" constant="60" id="DbV-4s-axl"/>
                             <constraint firstItem="qnp-os-y8L" firstAttribute="trailing" secondItem="Dh4-rE-LkK" secondAttribute="trailing" constant="40" id="KR9-6Y-O0k"/>
                             <constraint firstItem="bcE-EO-BCC" firstAttribute="top" secondItem="Bvm-OJ-gZV" secondAttribute="bottom" constant="20" id="MV9-Ze-AhU"/>
                             <constraint firstItem="qnp-os-y8L" firstAttribute="trailing" secondItem="bcE-EO-BCC" secondAttribute="trailing" constant="40" id="Q15-sh-jnV"/>
+                            <constraint firstItem="VUQ-9z-PRB" firstAttribute="centerX" secondItem="eT4-uB-7u9" secondAttribute="centerX" id="SL4-YX-7Ra"/>
                             <constraint firstItem="bcE-EO-BCC" firstAttribute="leading" secondItem="qnp-os-y8L" secondAttribute="leading" constant="40" id="Vjm-OR-udv"/>
                             <constraint firstItem="Bvm-OJ-gZV" firstAttribute="leading" secondItem="qnp-os-y8L" secondAttribute="leading" constant="40" id="et2-DZ-XiU"/>
                             <constraint firstItem="Dh4-rE-LkK" firstAttribute="top" secondItem="Bsp-Dm-aab" secondAttribute="bottom" constant="10" id="oaZ-e4-MS7"/>
@@ -171,7 +187,6 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rainbow Roulette" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4r-2s-knU">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="84"/>
-                                                <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="0.3653413955479452" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="23"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -337,18 +352,18 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cZ8-q0-0mW">
                                 <rect key="frame" x="20" y="3.6666666666666679" width="92" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-BoldItalic" family="Avenir Next" pointSize="18"/>
                                 <state key="normal" title="Chat"/>
                                 <connections>
                                     <segue destination="10L-9a-syq" kind="show" id="0Zz-DA-M0T"/>
                                 </connections>
                             </button>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" style="done" id="z4n-h0-k1p">
+                        <barButtonItem key="rightBarButtonItem" id="z4n-h0-k1p">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nhR-MW-xan">
                                 <rect key="frame" x="311" y="3.6666666666666679" width="83" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-BoldItalic" family="Avenir Next" pointSize="18"/>
                                 <state key="normal" title="Strats"/>
                                 <connections>
                                     <segue destination="ATo-qV-0sF" kind="show" identifier="stratbuttonpush" id="z0s-JT-WGl"/>
@@ -401,7 +416,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="middleTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NKt-Vy-qOw">
                                                         <rect key="frame" x="0.0" y="84" width="414" height="0.0"/>
-                                                        <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="19"/>
+                                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="19"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -418,7 +433,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc9-27-WWu">
                                                 <rect key="frame" x="0.0" y="0.0" width="157" height="168"/>
-                                                <state key="normal" title="Attack Strat" image="attackcircle">
+                                                <state key="normal" title="Attack Strat" image="attackbuttoncircle">
                                                     <color key="titleColor" red="0.070588235294117646" green="0.40784313725490196" blue="0.75686274509803919" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
@@ -436,8 +451,15 @@
                                                 </connections>
                                             </button>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstItem="cq2-U7-Zm4" firstAttribute="centerY" secondItem="6q5-g7-ab0" secondAttribute="centerY" id="4ci-cs-TrL"/>
+                                            <constraint firstItem="Zc9-27-WWu" firstAttribute="centerY" secondItem="6q5-g7-ab0" secondAttribute="centerY" id="HC2-e7-DgI"/>
+                                        </constraints>
                                     </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="GwA-kY-7Bn" firstAttribute="centerX" secondItem="742-fH-aW8" secondAttribute="centerX" id="BVm-4k-HWB"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -496,7 +518,7 @@
     <resources>
         <image name="SummitstudiosSnowTop" width="612" height="792"/>
         <image name="attack" width="612" height="792"/>
-        <image name="attackcircle" width="612" height="792"/>
+        <image name="attackbuttoncircle" width="612" height="792"/>
         <image name="defense" width="612" height="792"/>
         <image name="defensecircle" width="612" height="792"/>
         <image name="middlelogo" width="612" height="792"/>

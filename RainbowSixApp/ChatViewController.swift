@@ -14,6 +14,7 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var emailTextView: UITextField!
     
     @IBOutlet weak var passwordTextField: UITextField!
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,5 +62,7 @@ class ChatViewController: UIViewController {
         let loggedInVc:LoggedInController = storyboard.instantiateViewController(withIdentifier: "LoggedInController") as! LoggedInController
         self.present(loggedInVc, animated: true, completion: nil)
     }
+    
+    
     
 }
